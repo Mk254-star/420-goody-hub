@@ -1,12 +1,92 @@
-# React + Vite
+# 420-Goody-Hub Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the **420-Goody-Hub** project, built using **React**. It serves as the user interface for accessing 420-Goody-Hub services and features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### 1. **Clone the Repository**
+```sh
+git clone https://github.com/your-username/420-goody-hub.git
+cd 420-goody-hub/frontend
+2. Install Dependencies
+sh
+Copy
+Edit
+npm install
+3. Run the Development Server
+sh
+Copy
+Edit
+npm run dev     # For Vite
+# OR
+npm start       # For Create React App
+Open http://localhost:3000 in your browser.
+🗂️ Project Structure
+plaintext
+Copy
+Edit
+frontend/
+├── public/               # Static files
+├── src/
+│   ├── assets/           # Images and static assets
+│   ├── components/       # Reusable components
+│   ├── pages/            # Page components
+│   ├── App.jsx           # Main App component
+│   ├── index.js          # React entry point
+└── package.json
+🔨 Technologies Used
+React - Frontend framework
+Vite - (Optional) For faster development builds
+Tailwind CSS - (Optional) For styling
+📑 Available Scripts
+Development Server
+sh
+Copy
+Edit
+npm run dev
+Build for Production
+sh
+Copy
+Edit
+npm run build
+Preview Production Build
+sh
+Copy
+Edit
+npm run preview
+💡 Contributing
+Feel free to fork this repository, create a feature branch, and make a pull request. Any contributions are welcome!
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📬 Contact
+For questions or feedback, please reach out to Mark Karuga on GitHub.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ **Steps to Add It:**
+
+1. **Navigate to the frontend folder:**  
+```sh
+cd ~/Documents/420-goody-hub/frontend
+Create or open the README.md file:
+sh
+Copy
+Edit
+nano README.md
+Paste the entire content above into the file.
+
+Save and exit:
+
+If using nano, press CTRL + O, hit ENTER, and then CTRL + X to exit.
+Commit and push to GitHub:
+sh
+Copy
+Edit
+git add README.md
+git commit -m "Added README.md to the frontend folder"
+git push origin main
