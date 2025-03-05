@@ -1,13 +1,15 @@
-import React from 'react';
-import Navbar from './components/Navbar';
+import React from "react";
+import AboutUs from "./components/AboutUs";
 
 function App() {
-    return (
-        <div>
-            <Navbar />
-            <h2>Welcome to 420 Goody Hub!</h2>
-        </div>
-    );
+  return (
+    <div className="App">
+      <h1>Welcome to 420-Goody-Hub!</h1>
+      <p>Your hub for campus goodies and services.</p>
+      <AboutUs />
+    </div>
+  );
 }
 
 export default App;
+
