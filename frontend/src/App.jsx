@@ -1,13 +1,10 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
+import React from "react";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <HomePage />
-      <Footer />
+    <div className="App">
+      <h1>Welcome to 420-Goody-Hub!</h1>
+      <p>Your hub for campus goodies and services.</p>
     </div>
   );
 }
