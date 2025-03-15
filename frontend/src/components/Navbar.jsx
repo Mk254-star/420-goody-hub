@@ -1,41 +1,28 @@
-// src/components/Navbar.jsx
-import React from 'react';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css"; // Ensure this file exists
 
-const Navbar = () => {
-    return (
-        <nav style={styles.navbar}>
-            <h1 style={styles.title}>420 Goody Hub</h1>
-            <ul style={styles.navLinks}>
-                <li><a href="/" style={styles.link}>Home</a></li>
-                <li><a href="/services" style={styles.link}>Services</a></li>
-                <li><a href="/about" style={styles.link}>About</a></li>
-                <li><a href="/contact" style={styles.link}>Contact</a></li>
-            </ul>
-        </nav>
-    );
-};
+function Navbar() {
+  console.log("Navbar Loaded"); // Debugging check
 
-const styles = {
-    navbar: {
-        display: 'flex',
-        justifyContent: 'space-between',
-        padding: '10px 20px',
-        backgroundColor: '#333',
-        color: '#fff',
-    },
-    title: {
-        margin: 0,
-    },
-    navLinks: {
-        listStyleType: 'none',
-        display: 'flex',
-        gap: '15px',
-        margin: 0,
-    },
-    link: {
-        color: '#fff',
-        textDecoration: 'none',
-    }
-};
+  return (
+    <nav className="navbar">
+      <h1>420 Goody Hub</h1>
+      <ul>
+        <li>
+          <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+            About Us
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
+}
 
 export default Navbar;
+
